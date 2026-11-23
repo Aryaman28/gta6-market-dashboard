@@ -4,7 +4,23 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>GTA VI — Launch Day Market Impact · 19 Nov 2026</title>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Russo+One&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<!-- GTA Art Deco font — local files -->
+<style>
+@font-face {
+  font-family: 'GTA Art Deco';
+  src: url('gta-art-deco-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GTA Art Deco';
+  src: url('gta-art-deco-medium.ttf') format('truetype');
+  font-weight: 500 700;
+  font-style: normal;
+  font-display: swap;
+}
+</style>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
 <style>
@@ -65,7 +81,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Rajdhani', 'Segoe UI', sans-serif;
+  font-family: 'GTA Art Deco', 'Segoe UI', sans-serif;
   font-size: 14px;
   background: var(--bg);
   color: var(--text-primary);
@@ -121,7 +137,7 @@ body::before {
 .header-title { flex: 1; }
 
 .header-title h1 {
-  font-family: 'Bebas Neue', 'Russo One', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
   font-size: 22px;
   letter-spacing: 0.08em;
   line-height: 1.1;
@@ -132,7 +148,7 @@ body::before {
 }
 
 .header-title .sub {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
   font-size: 12px;
   color: var(--text-muted);
   margin-top: 2px;
@@ -141,7 +157,7 @@ body::before {
 
 /* Badge */
 .launch-badge {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
   font-size: 10px;
   letter-spacing: 0.1em;
   background: linear-gradient(90deg, #f72585, #f77f00);
@@ -169,7 +185,7 @@ body::before {
 .tab-bar::-webkit-scrollbar { display: none; }
 
 .tab-btn {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
   font-size: 12px;
   letter-spacing: 0.08em;
   background: none;
@@ -198,7 +214,7 @@ body::before {
    SECTION HEADERS
    ═══════════════════════════════════════════════════════ */
 .section-hdr {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
   font-size: 11px;
   letter-spacing: 0.12em;
   color: var(--neon-pink);
@@ -244,7 +260,7 @@ body::before {
 }
 
 .kpi-label {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
   font-size: 10px;
   letter-spacing: 0.1em;
   color: var(--text-muted);
@@ -252,14 +268,14 @@ body::before {
   margin-bottom: 8px;
 }
 .kpi-value {
-  font-family: 'Bebas Neue', 'Russo One', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
   font-size: 32px;
   letter-spacing: 0.04em;
   color: var(--text-primary);
   line-height: 1;
 }
 .kpi-delta {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
   font-size: 12px;
   font-weight: 600;
   margin-top: 6px;
@@ -293,7 +309,7 @@ body::before {
   background: linear-gradient(90deg, transparent, rgba(255,47,120,0.3), transparent);
 }
 .chart-card h2 {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
   font-size: 13px;
   letter-spacing: 0.06em;
   color: var(--text-primary);
@@ -303,7 +319,7 @@ body::before {
   font-size: 12px;
   color: var(--text-muted);
   margin-bottom: 16px;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
 }
 .chart-wrap { position: relative; }
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
@@ -324,7 +340,7 @@ body::before {
 .insight-card.good { border-left-color: var(--good); }
 .insight-card.info { border-left-color: var(--neon-cyan); }
 .insight-title {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
   font-size: 12px;
   letter-spacing: 0.06em;
   color: var(--text-primary);
@@ -334,7 +350,7 @@ body::before {
   font-size: 13px;
   color: var(--text-secondary);
   line-height: 1.6;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
 }
 .insight-body strong { color: var(--text-primary); font-weight: 700; }
 .insight-body a { color: var(--neon-cyan); text-decoration: none; }
@@ -348,7 +364,7 @@ body::before {
   border-radius: var(--radius);
   padding: 12px 16px;
   font-size: 12px;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
   color: var(--text-secondary);
   margin-bottom: 24px;
   line-height: 1.6;
@@ -360,11 +376,11 @@ body::before {
    STOCK TABLE
    ═══════════════════════════════════════════════════════ */
 .stock-table-wrap { overflow-x: auto; }
-table { width: 100%; border-collapse: collapse; font-size: 13px; font-family: 'Rajdhani', sans-serif; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; font-family: 'GTA Art Deco', sans-serif; }
 thead th {
   text-align: left;
   padding: 8px 12px;
-  font-family: 'Russo One', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
   font-size: 10px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -405,15 +421,15 @@ td.hl   { font-weight: 700; color: #fff; }
   flex-shrink: 0; width: 26px; height: 26px; border-radius: 50%;
   background: linear-gradient(135deg, var(--g-purple), var(--g-pink));
   color: #fff;
-  font-family: 'Russo One', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
   font-size: 11px;
   display: flex; align-items: center; justify-content: center;
 }
-.stitle { font-weight: 700; font-size: 13px; color: var(--text-primary); margin-bottom: 2px; font-family: 'Rajdhani', sans-serif; }
-.surl   { font-size: 11px; color: var(--neon-cyan); word-break: break-all; font-family: 'Rajdhani', sans-serif; }
-.sdesc  { font-size: 12px; color: var(--text-secondary); margin-top: 4px; font-family: 'Rajdhani', sans-serif; line-height: 1.5; }
+.stitle { font-weight: 700; font-size: 13px; color: var(--text-primary); margin-bottom: 2px; font-family: 'GTA Art Deco', sans-serif; }
+.surl   { font-size: 11px; color: var(--neon-cyan); word-break: break-all; font-family: 'GTA Art Deco', sans-serif; }
+.sdesc  { font-size: 12px; color: var(--text-secondary); margin-top: 4px; font-family: 'GTA Art Deco', sans-serif; line-height: 1.5; }
 .stag {
-  display: inline-block; font-family: 'Russo One', sans-serif;
+  display: inline-block; font-family: 'GTA Art Deco', sans-serif;
   font-size: 9px; letter-spacing: 0.08em;
   border-radius: 4px; padding: 2px 7px; margin-bottom: 5px;
 }
@@ -428,7 +444,7 @@ td.hl   { font-weight: 700; color: #fff; }
 .app-footer {
   text-align: center;
   padding: 24px;
-  font-family: 'Russo One', sans-serif;
+  font-family: 'GTA Art Deco', sans-serif;
   font-size: 11px;
   letter-spacing: 0.08em;
   color: var(--text-muted);
@@ -663,7 +679,7 @@ td.hl   { font-weight: 700; color: #fff; }
     All stock prices confirmed from Yahoo Finance (retrieved live, Nov 23 2026).
     Revenue &amp; unit figures ($3.79B day-1, 32.5M pre-release, $80 price) sourced from Yahoo Finance news aggregation of TTWO/Rockstar announcements.
     Economic projections are pre-launch analyst consensus. Market context (S&amp;P, NASDAQ, VIX) from Yahoo Finance.
-    Items marked <span style="font-family:Russo One;font-size:9px;background:rgba(255,255,255,0.1);border-radius:3px;padding:1px 5px;letter-spacing:.05em">EST.</span> are trend-derived estimates, not confirmed actuals.
+    Items marked <span style="font-family:'GTA Art Deco';font-size:9px;background:rgba(255,255,255,0.1);border-radius:3px;padding:1px 5px;letter-spacing:.05em">EST.</span> are trend-derived estimates, not confirmed actuals.
     All values USD unless noted.
   </div>
 
@@ -830,7 +846,7 @@ function baseOpts() {
       legend: {
         labels: {
           color: sec,
-          font: { family: "'Rajdhani', sans-serif", size: 12, weight: '600' },
+          font: { family: "'GTA Art Deco', sans-serif", size: 12, weight: '600' },
           boxWidth: 10, boxHeight: 10, padding: 14,
         }
       },
@@ -842,18 +858,18 @@ function baseOpts() {
         borderWidth: 1,
         padding: 10,
         cornerRadius: 6,
-        titleFont: { family: "'Russo One', sans-serif", size: 12 },
-        bodyFont:  { family: "'Rajdhani', sans-serif",  size: 13 },
+        titleFont: { family: "'GTA Art Deco', sans-serif", size: 12 },
+        bodyFont:  { family: "'GTA Art Deco', sans-serif", size: 13 },
       },
     },
     scales: {
       x: {
-        ticks: { color: muted, font: { family: "'Rajdhani',sans-serif", size: 11, weight:'600' } },
+        ticks: { color: muted, font: { family: "'GTA Art Deco',sans-serif", size: 11, weight:'600' } },
         grid:  { color: cv('--gridline') },
         border:{ color: cv('--baseline') },
       },
       y: {
-        ticks: { color: muted, font: { family: "'Rajdhani',sans-serif", size: 11, weight:'600' } },
+        ticks: { color: muted, font: { family: "'GTA Art Deco',sans-serif", size: 11, weight:'600' } },
         grid:  { color: cv('--gridline') },
         border:{ color: 'transparent' },
       },
@@ -950,7 +966,7 @@ function buildCharts() {
               borderColor:pink, borderWidth:1.5, borderDash:[4,4],
               label:{content:'🚀 Launch Day',display:true,position:'start',
                 backgroundColor:pink,color:'#fff',
-                font:{size:10,weight:'bold',family:"'Russo One',sans-serif"},
+                font:{size:10,weight:'bold',family:"'GTA Art Deco',sans-serif"},
                 padding:{x:7,y:4}}
             },
             split:{
@@ -958,7 +974,7 @@ function buildCharts() {
               borderColor:'#666', borderWidth:1, borderDash:[3,3],
               label:{content:'← Est. | Confirmed →',display:true,position:'end',
                 backgroundColor:'#444',color:'#aaa',
-                font:{size:9,family:"'Rajdhani',sans-serif"},padding:{x:5,y:2}}
+                font:{size:9,family:"'GTA Art Deco',sans-serif"},padding:{x:5,y:2}}
             }
           }
         }
@@ -1069,7 +1085,7 @@ function buildCharts() {
         annotation:{annotations:{
           launch:{type:'line',xMin:5,xMax:5,borderColor:pink,borderWidth:1.5,borderDash:[4,4],
             label:{content:'Launch',display:true,position:'start',backgroundColor:pink,
-              color:'#fff',font:{size:10,family:"'Russo One',sans-serif"},padding:{x:5,y:3}}}
+              color:'#fff',font:{size:10,family:"'GTA Art Deco',sans-serif"},padding:{x:5,y:3}}}
         }}
       },
       scales:{...b.scales,y:{...b.scales.y,min:160,ticks:{...b.scales.y.ticks,callback:v=>'$'+v.toFixed(0)}}}
