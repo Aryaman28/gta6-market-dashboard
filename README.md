@@ -21,7 +21,7 @@
 
 ---
 
-## 📊 Dashboard Overview
+## Dashboard Overview
 
 A fully self-contained, single-file interactive dashboard built in vanilla HTML/CSS/JS. No frameworks, no build tools — just open `index.html`.
 
@@ -37,12 +37,12 @@ A fully self-contained, single-file interactive dashboard built in vanilla HTML/
 
 ---
 
-## 🔑 Key Findings
+## Key Findings
 
 ### 1 · "Sell the News" — TTWO on Launch Day
 
-| Date | TTWO Close | Day Δ | Story |
-|------|------------|-------|-------|
+| Date | TTWO Close | Day Delta | Story |
+|------|------------|-----------|-------|
 | Nov 14 (est.) | ~$235 | — | Pre-launch plateau |
 | Nov 17 | $203.93 | −13% from est. | Anticipation unwind begins |
 | Nov 18 | $216.61 | +6.2% | Pre-launch bounce |
@@ -56,7 +56,7 @@ TTWO's 52-week high was **$265.94** — the stock spent 2026 pricing in GTA VI's
 
 | Metric | GTA VI (2026) | GTA V (2013, adj.) | Multiple |
 |--------|--------------|-------------------|----------|
-| Day-1 revenue | **$3.79B** | ~$0.95B | **4×** |
+| Day-1 revenue | **$3.79B** | ~$0.95B | **4x** |
 | Launch price | **$80** | $60 | +33% |
 | Pre-release units | **32.5M** | — | — |
 | Year-1 consensus | **$3.77B** | — | — |
@@ -74,11 +74,11 @@ TTWO's 52-week high was **$265.94** — the stock spent 2026 pricing in GTA VI's
 | AMD | −15.7% | **Macro correction — not GTA6** |
 | S&P 500 | −5.9% | Broad market in correction |
 
-> ⚠️ The launch week coincided with a significant market-wide selloff (VIX 35.89, $5.5T erased from ATH). NVDA and AMD declines were macro-driven and should not be attributed to GTA VI.
+> Note: The launch week coincided with a significant market-wide selloff (VIX 35.89, $5.5T erased from ATH). NVDA and AMD declines were macro-driven and should not be attributed to GTA VI.
 
 ---
 
-## 🎨 Design
+## Design
 
 Themed to GTA VI's Miami Vice aesthetic:
 
@@ -91,22 +91,22 @@ Themed to GTA VI's Miami Vice aesthetic:
 
 ---
 
-## 🗂️ File Structure
+## File Structure
 
 ```
 gta6-market-dashboard/
-├── index.html              ← Single-file dashboard (all data, charts, CSS, JS)
+├── index.html              <- Single-file dashboard (all data, charts, CSS, JS)
 ├── README.md
 ├── .gitignore
 └── assets/
-    ├── gta6-logo.png       ← Official GTA VI logo (header)
+    ├── gta6-logo.png       <- Official GTA VI logo (header)
     ├── gta-art-deco-regular.ttf
     └── gta-art-deco-medium.ttf
 ```
 
 ---
 
-## ⚡ Running Locally
+## Running Locally
 
 No build step, no dependencies to install.
 
@@ -122,7 +122,7 @@ Chart.js and the annotation plugin load from CDN — an internet connection is r
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -135,7 +135,7 @@ Chart.js and the annotation plugin load from CDN — an internet connection is r
 
 ---
 
-## 📋 Data Sources
+## Data Sources
 
 All stock prices confirmed from Yahoo Finance (retrieved 23 Nov 2026). Revenue figures sourced from TTWO/Rockstar press releases as aggregated by Yahoo Finance news.
 
@@ -156,9 +156,9 @@ All stock prices confirmed from Yahoo Finance (retrieved 23 Nov 2026). Revenue f
 
 ---
 
-## 👤 Author
+## Author
 
-**Aryaman Singh** — Assoc. Analyst II, Digital Marketing
+**Aryaman Singh**
 
 Built as a personal analytics project · November 2026
 
